@@ -11,9 +11,9 @@ Below is a general outline of the project architecture. All files relating to V1
 * 1 LED Strip
 * AVNET MicroZed FPGA (considering a Teensy 3.6 microcontroller as well
 * A protoboard with the following components:
-** Transistors used for PWM of LEDs (see TODO)
-** 4x1 male Molex pin headers for LED Strip
-** 3.5mm DC Power connector (see TODO)
-** 3x1 male or female socket pin header (FPGA/Microcontroller connector to transistors)
+  * Transistors used for PWM of LEDs (see TODO)
+  * 4x1 male Molex pin headers for LED Strip
+  * 3.5mm DC Power connector (see TODO)
+  * 3x1 male or female socket pin header (FPGA/Microcontroller connector to transistors)
 
 
