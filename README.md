@@ -32,10 +32,10 @@ Below is a general outline of the project architecture. All files relating to V1
 * Create circuit diagram
 * Create small PCB to interface 12V power cable to LED strip
  * Add a switch to enable/disable pwm capabilities
-* ~~Select a transistor capable of meeting the following constraints:
-  * ~~Max current drawn by the LEDs
-  * ~~Can be driven by a 3.3V/2.7V/1.3V signal at the gate (voltage constrained by microcontroller/FPGA)
-  * ~~Does not overheat to unsafe levels
+* ~~Select a transistor capable of meeting the following constraints:~~
+  * ~~Max current drawn by the LEDs~~
+  * ~~Can be driven by a 3.3V/2.7V/1.3V signal at the gate (voltage constrained by microcontroller/FPGA)~~
+  * ~~Does not overheat to unsafe levels~~
 * Find suitable protoboard
 * Verify wires are capable of current levels selected
 
