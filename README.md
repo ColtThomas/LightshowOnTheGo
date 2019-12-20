@@ -34,6 +34,7 @@ Below is a general outline of the project architecture. All files relating to V1
 * The Dout signal alternates between the right and left channel every other clock cycle. Output is in pulse-density modulation (PDM)
  * Clk Low = Left Channel
 * The microphone is connected to some codec inside the FPGA
+* Demodulate the signal by using a low pass filter... and try to figure out why this works.
 
 
 ### TODO
