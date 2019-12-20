@@ -25,6 +25,16 @@ Below is a general outline of the project architecture. All files relating to V1
 * Gate is driven by a 3.3V signal from the Minized
 * The above circuit yields a 50mA current draw. If we can get it to 1A we can get really bright LEDs which would be ideal.
 
+### Microphone
+
+* Documentation: MiniZed-HW-UG...pdf
+* Output
+ * Audio Clk
+ * Dout
+* The Dout signal alternates between the right and left channel every other clock cycle. Output is in pulse-density modulation (PDM)
+* The microphone is connected to some codec inside the FPGA
+
+
 ### TODO
 * ~~Estimate current draw on the LEDs given a 12V DC power source.~~ 1A current draw
 * ~~Determine the max level of brightness desired from LED strip~~ Max brightness at 1A
