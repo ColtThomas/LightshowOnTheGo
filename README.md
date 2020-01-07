@@ -27,7 +27,7 @@ Below is a general outline of the project architecture. All files relating to V1
 
 ### Microphone
 
-* Documentation: MiniZed-HW-UG...pdf
+* Documentation: MiniZed-HW-UG...pdf [(Link)](http://zedboard.org/sites/default/files/documentations/MiniZed-HW-UG-v1-0-V1_0.pdf)
 * Output
  * Audio Clk
  * Dout
