@@ -51,3 +51,11 @@ Below is a general outline of the project architecture. All files relating to V1
 * Find suitable protoboard
 * Verify wires are capable of current levels selected
 
+
+## Software 
+
+### TODO
+* Determine the sample rate of your microphone
+ * Figure out interrupt timing in relation to the sample rate
+* Design lowpass filter to receive microphone input
+* Design a filter to detect the base in a song
