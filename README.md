@@ -27,10 +27,12 @@ Below is a general outline of the project architecture. All files relating to V1
 
 ### Microphone
 
-* Documentation: MiniZed-HW-UG...pdf [(Link)](http://zedboard.org/sites/default/files/documentations/MiniZed-HW-UG-v1-0-V1_0.pdf)
+* Documentation: 
+   * [MiniZed-HW-UG pdf](http://zedboard.org/sites/default/files/documentations/MiniZed-HW-UG-v1-0-V1_0.pdf)
+   * [MP34DT05 Microphone Datasheet](https://www.st.com/resource/en/datasheet/mp34dt05-a.pdf)
 * Output
- * Audio Clk
- * Dout
+   * Audio Clk
+   * Dout
 * The Dout signal alternates between the right and left channel every other clock cycle. Output is in pulse-density modulation (PDM)
  * Clk Low = Left Channel
 * The microphone is connected to some codec inside the FPGA
